@@ -69,3 +69,4 @@ non-involved third party member.
 Tony Wei (tongwei3)
 Abhitya Krishnaraj (abhitya2)
 Yusong Wang (yusongw2)
+Seohye Choi (seohyec2)
