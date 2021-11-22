@@ -4,43 +4,65 @@
 
 Question
 
-Our aim is to find the smallest amount of time it would take to visit the 40 of the
+Our aim is to find the shortest path it would take to visit the 40 of the most
 
-most popular cities to visit/travel through in the world. A potential passenger inputs their
+popular cities to visit/travel throughout the world. We specifically selected 40 cities
 
-desired starting city and ending city, and in return will get an output of the path with
+based on their population, tourist population, and airport traffic numbers.
 
-minimum flight time spent based on optimal predicted times or realistic flight times. We
+([https://docs.google.com/spreadsheets/d/10qROWMp9avkBSwOBKGd6O9PxxSMO2S](https://docs.google.com/spreadsheets/d/10qROWMp9avkBSwOBKGd6O9PxxSMO2SQRJCa5j3WpNPQ/edit?usp=sharing)
 
-also give the passenger two options, a path that randomly visits all 40 destinations or a
+[QRJCa5j3WpNPQ/edit?usp=sharing](https://docs.google.com/spreadsheets/d/10qROWMp9avkBSwOBKGd6O9PxxSMO2SQRJCa5j3WpNPQ/edit?usp=sharing)).
 
-path that is continent restricted(passenger visits all of the cities within a continent before
+We set up a graph where each node represents the selected cities and each
 
-moving on to another one).
+edge represents the flight time between two cities. We are creating a scenario where
 
-Cities Used:
+the passenger at hand does not want to spend more than 12 hours (720 minutes) on a
 
-[https://docs.google.com/spreadsheets/d/10qROWMp9avkBSwOBKGd6O9PxxSMO2SQ](https://docs.google.com/spreadsheets/d/10qROWMp9avkBSwOBKGd6O9PxxSMO2SQRJCa5j3WpNPQ/edit?usp=sharing)
+flight (essentially no overnight flights).This passenger inputs their desired starting city
 
-[RJCa5j3WpNPQ/edit?usp=sharing](https://docs.google.com/spreadsheets/d/10qROWMp9avkBSwOBKGd6O9PxxSMO2SQRJCa5j3WpNPQ/edit?usp=sharing)
+and ending city, and in return will get an output of the shortest path based on optimal
+
+predicted flight times. He will also be shown a map of the Minimum Spanning Tree that
+
+encompases all 40 cities in question.
 
 Dataset Acquisition and Processing
 
 We will be using the airport data from the open flights airport database to get
 
-anything relevant such as airport code, destination, number of stops, etc. Once we have
+relevant information about the airports in the 40 cities, such as airport, city, country,
 
-retrieved said information, we can further import the data as a csv file in which case
+continent, IATA code, latitude, and longitude. We will be filtering out the necessary
 
-processing can be treated similar to string and array processing. In addition to getting
+airports from the list of thousands of airports found on the open flights database. To find
 
-information that is not included within the **open flights** database, like that of flight time,
+data on flight times and routes between cities we will be manually inputting data from
 
-we will explore other options, like <https://www.flightsfrom.com/LOS/destinations>. In this
+<https://www.flightsfrom.com/>[ ](https://www.flightsfrom.com/)into a separate database, adding information about the
 
-case, the data will be added manually and added to the csv files from the open flights
+route between two cities including: departure airport code, departure city, flight time in
 
-data.
+minutes, destination airport code, and destination city.
+
+**Sample airport data:** "London Heathrow Airport", "London", "United Kingdom",
+
+“Europe”, "LHR", 51.4706, -0.461941
+
+**Sample Route Data for shortest path:** “LGW”, “London”, 75, “CDG”, “Paris” / “CDG”,
+
+“Paris”, 65, “LGW”, “London” (directed paths between cities)
+
+**Sample Route Data for MST:** “LGW”, “London”, “65”, “CDG”, “Paris” / “CDG”, “Paris”,
+
+65, “LGW”, “London” (undirected path between cities)
+
+Our graph will be created by each airport representing a node/vertex and each
+
+route from one city to another will either be a directional edge (for shortest path) or
+
+undirected edge (for MST) connecting those nodes.
 
 Algorithms
 
@@ -52,65 +74,85 @@ complexity of the algorithm or the result.
 
 Dijkstra’s Algorithm decides the minimum path from one predetermined starting
 
-point to any of the other 50 cities. From the starting city, each neighbor has a cumulative
+point to any of the other 40 cities. From the starting city, each neighbor has a cumulative
+
+
+
+
 
 distance from it’s previous visited site. When a shorter value presents, the current
 
-distance is updated. It has time complexity of O(E\*log(V)) with E representing edges, V
+distance is updated. It has a time complexity of O(V^2), V representing vertices. In this
 
+scenario, (40 cities) vertices and (Duration of a flight between those cities) edges.
 
+Dijkstra’s Algorithm gives us the shortest path connected by flights between two cities
 
+without restriction on the number of places visited.
 
+Dijkstra’s Input: 2D array with directed paths representing routes from one city to
 
-representing vertices. In this scenario, (40 cities) vertices and (Number of flights
+another.
 
-available between those cities) edges.
+Output: List of cities and airports visited, time it takes to go from one city to
 
-The Floyd–Warshall algorithm finds the minimum path among all pairs of starting
+another, total time.
 
-points and ending cities. The algorithm differs from that of Dijkstra as it incorporates
+We will be using Kruskal’s algorithm to build a minimum spanning tree by sorting
 
-bidirectional edges with varying weights that stimulate real time flight paths between
+edges in ascending order. An array is used to store the weighted edges, and disjoint
 
-airports. Optimal runtimes for this case is O(n^3) whereas a more realistic algorithm
+sets to keep track of nodes that are connected. First the edges are sorted, then
 
-runtime is O(n\*(n+e)\*log n). Other than the simple difference in weight accounting and
+separate disjoint sets are initialized for each vertex. For each edge connecting two
 
-bidirectional approach, the solution is relatively the same for both algorithms in terms of
+vertices, if the two vertices are in different sets, union the two sets that contain the
 
-solving for shortest paths.
+vertices. Add that path(edge) to the solution. Kruskal’s algorithm has O(E\*log(E))
+
+running time, where E is the number of edges.
+
+Kruskal’s input: 2D array with an undirected path representing routes that
+
+connect one city to another.
+
+Output: A graph highlighting the routes that represent the minimum spanning tree
+
+of the input airports and routes.
 
 Timeline
 
 **Week 1(11/8-11/14) :**
 
-● Find the bi-directional data for all possible airport flight times and link
+● Clean the airport data, cutting out extraneous data points and columns from the
 
-corresponding data
+openflights database
 
-● Clean and find any extraneous data points that weren’t previously found
+● Create the undirected and directed databases from the FlightsFrom data
 
 **Week 2 (11/15-11/21):**
 
-● Complete the written code for the algorithms and begin base testing for small
+● Start working on the written code for the Kruskal algorithm (Team 1)
 
-scale trips utilizing just the Floyd-Warshall Algorithm to fulfill realistic flight time
-
-paths. (Team 1)
-
-● Complete the algorithm necessary for Djikstra in order to satisfy requirements of
-
-optimal predicted time. (Team 2)
+● Start working on the written code for the Djikstra algorithm (Team 2)
 
 **Week 3 (11/22- 11/28 Thanksgiving):**
 
-● No task to celebrate indians
+● Finish the Kruskal and Djikstra algorithms and test the each algorithm with basc
+
+test to ensure they are working
+
+● Start work on displaying a map of the world with points indicating locations of
+
+airports
 
 **Week 4 (11/29 - 12/5):**
 
-● Test and improve the code and algorithms, creating/running tests to ensure
+● Test and improve the code and algorithms running test on the full sets of data
 
-validity of code
+● Work on adding paths atop the map of the world to display the shortest path and
+
+MST
 
 **Final Week (12/6-12/13):**
 
