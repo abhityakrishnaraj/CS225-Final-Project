@@ -36,5 +36,14 @@ cleaned the open flights database for the data we needed for the project.
 
 Week of November 29
 
-●
+● Worked through the initial stages of development for djikstra's algorithm and the importation
 
+of data from csv files into usable vectors in code. Also created the baseline gif for showing
+
+off the routes taken for the shortest path between two places and added some quality of life
+
+improvements for users inputting cities into the code. Some problems did rise up for both the
+
+creation of the algorithm and the importation of data but they were resolved in the group
+
+meeting. Also had the mid- point presentation this week that went ok.
