@@ -12,7 +12,7 @@ namespace color
     /* Format in initialization is hue, saturation, luminance, alpha */
     const cs225::HSLAPixel WHITE(0, 0, 1);
     const cs225::HSLAPixel BLACK(0, 0, 0);
-    const cs225::HSLAPixel GRAY(33, 4.1/100.0, 56.7/100.0);
+    const cs225::HSLAPixel DARKGRAY(33, 0, 0.2);
     const cs225::HSLAPixel RED(0, 1, 0.5);
     const cs225::HSLAPixel ORANGE(30, 1, 0.5);
     const cs225::HSLAPixel YELLOW(60, 1, 0.5);

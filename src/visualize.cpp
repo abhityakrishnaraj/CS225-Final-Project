@@ -27,8 +27,8 @@ using namespace std;
 
 
 Vector2 Visualize::maptocoord(double longitude, double latitude){
-    int height = 952;
-    int width = 1325;
+    int height = 318;
+    int width = 637;
     double latRad = latitude * M_PI/180;
     double mercN = log(tan((M_PI/4)+(latRad/2)));
 
@@ -40,14 +40,14 @@ Vector2 Visualize::maptocoord(double longitude, double latitude){
 
 //create a circle with radius 5 and draw on png
 void Visualize::drawPixel(int x, int y, PNG & png){
-    Circle circle(Vector2(x, y), color::BLUE, 5);
+    Circle circle(Vector2(x, y), color::BLUE, 2);
     circle.draw(&png);
 }    
 
      
 
 void Visualize::drawLine(int x1, int y1, int x2, int y2, PNG & png){
-    Line line(Vector2(x1, y1), Vector2(x2, y2), color::GRAY);
+    Line line(Vector2(x1, y1), Vector2(x2, y2), color::DARKGRAY);
     line.draw(&png);
 }
 
