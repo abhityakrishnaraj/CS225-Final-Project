@@ -31,10 +31,10 @@ Vector2 Visualize::maptocoord(double longitude, double latitude){
     int width = 637;
     double latRad = latitude * M_PI/180;
     double mercN = log(tan((M_PI/4)+(latRad/2)));
-    std::cout<<"Longi"<<longitude<<"Lati"<<latitude<<std::endl;
+    // std::cout<<"Longi"<<longitude<<"Lati"<<latitude<<std::endl;
     int x = fmod((width*(180+longitude)/360), (width + (width/2)));//(int) (longitude/180*((int)width/2)+width/2);    //
     int y = (height/2) - (width*mercN/(2*M_PI));//(int) (latitude/90*((int)height/2)+height/2); //
-    std::cout<<"x"<<x<<"y"<<y<<std::endl;
+    // std::cout<<"x"<<x<<"y"<<y<<std::endl;
     return Vector2(x, y);
 }
 
@@ -79,7 +79,7 @@ PNG Visualize::visualize(std::vector<std::string> input) {
         // while (std::getline(s, word, ',')) {
         //     row.push_back(word);
         // }
-        std::cout<<"Longi"<<row[5]<<"Lati"<<row[4]<<std::endl;
+        // std::cout<<"Longi"<<row[5]<<"Lati"<<row[4]<<std::endl;
         Vector2 cur = maptocoord(stod(row[5]),stod(row[4]));
         
         airportLocations[row[3]] = cur;

@@ -12,6 +12,9 @@ int main(){
     Visualize v;
     v.visualize(input).writeToFile("Final Route.png");
     //do vector of PNGs
+    PNG base;
+    base.readFromFile("map.png");
+    vec.push_back(base);
     for (unsigned i = 1; i < input.size(); i++) {
         for (unsigned j = 0; j <= i; j++) {
             temp.push_back(input[j]);
