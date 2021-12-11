@@ -1,0 +1,3 @@
+/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir

@@ -11,8 +11,8 @@ int minDist(int dist[], bool visit[]){
 
     for(int i = 0; i < V; i++)
         if(visit[i] == false && dist[i] <= min){
-            min = dist[v];
-            idx = v;
+            min = dist[i];
+            idx = i;
         }
     return idx;
 }
@@ -20,7 +20,7 @@ int minDist(int dist[], bool visit[]){
 vector<int> getPath(int parent[], int goal){
     vector<int> path;
     if(parent[goal] == -1)
-        return;
+        return NULL;
     getPath(parent, parent[goal]);
     path.push_back(goal);
     printf("%d", goal);
@@ -44,11 +44,10 @@ void djikstra(int graph[V][V], int start, int goal){
         for(int k = 0; k < V; k++){
             if(!visit[k] && graph[m][k] && (dist[m] + graph[m][k]) < dist[k]){
                 parent[k] = m;
-                dist[v] = dist[m] + graph[m][k];
+                dist[k] = dist[m] + graph[m][k];
             }
         }
     }
-
     getPath(parent, goal);
 }
 
