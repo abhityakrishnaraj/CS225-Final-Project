@@ -18,8 +18,11 @@ int minDist(int dist[], bool visit[]){
 }
 
 void getPath(int parent[], int goal, vector<int>& path){
-    if(parent[goal] == -1)
-        return NULL;
+    if(parent[goal] == -1){
+        path.push_back(goal);
+        printf("%d", goal);
+        return;
+    }
     getPath(parent, parent[goal], path);
     path.push_back(goal);
     printf("%d", goal);
