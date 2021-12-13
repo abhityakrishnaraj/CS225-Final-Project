@@ -87,7 +87,7 @@ int main(){
     vector<int> path = bfs(adj, start, end);
     
     if(path.empty())
-        printf("No possible routes between %s and %s", start, goal);
+        printf("No possible routes between %s and %s", cities[start], cities[end]);
     
     vector<int> strpath;
     for(unsigned i = 0; i < path.size(); i++){
