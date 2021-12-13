@@ -156,9 +156,8 @@ int main(){
     
     std::vector<int> row;
     std::string line, word;
-    
+    int count = 0;
     while (fin >> line) {
-        int count = 0;
         row.resize(0);
         std::stringstream s(line);
 
