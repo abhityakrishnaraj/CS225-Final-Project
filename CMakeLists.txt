@@ -46,4 +46,4 @@ add_executable(tongwei3_abhitya2_seohyec2_yusongw2
         graphingpart/vector2.h
         graphingpart/visualize.cpp
         graphingpart/visualize.h
-        shortestpath.cpp)
+        graphingpart/shortestpath.cpp)

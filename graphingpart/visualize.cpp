@@ -76,14 +76,10 @@ PNG Visualize::visualize(std::vector<std::string> input) {
             std::getline(s, word, ',');
             row.push_back(word);
         }
-        // while (std::getline(s, word, ',')) {
-        //     row.push_back(word);
-        // }
-        // std::cout<<"Longi"<<row[5]<<"Lati"<<row[4]<<std::endl;
+        
         Vector2 cur = maptocoord(stod(row[5]),stod(row[4]));
         
         airportLocations[row[3]] = cur;
-        
     }
     
 

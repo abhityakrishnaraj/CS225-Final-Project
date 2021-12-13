@@ -1,19 +1,22 @@
 #pragma once
-#include "stdio.h"
-#include "limits.h"
+
+#include <fstream>
+#include <sstream>
+#include <cstdio>
+#include <climits>
 #include "vector"
 #include "stack"
 #include "iostream"
 
-#define V 40
+#define V 5
 
 using namespace std;
 
-int minDist(int dist[], bool visit[]){
+int minDist(const int dist[], const bool visit[]){
     int min = INT_MAX, idx;
 
     for(int i = 0; i < V; i++)
-        if(visit[i] == false && dist[i] <= min){
+        if(!visit[i] && dist[i] <= min){
             min = dist[i];
             idx = i;
         }
@@ -21,8 +24,12 @@ int minDist(int dist[], bool visit[]){
 }
 
 void getPath(int parent[], int goal, vector<int>& path){
-    if(parent[goal] == -1)
+    if(parent[goal] == -1){
+        path.push_back(goal);
+        printf("%d", goal);
         return;
+    }
+    
     getPath(parent, parent[goal], path);
     path.push_back(goal);
     printf("%d", goal);
@@ -94,10 +101,48 @@ void dfs(int row, int col, int grid[V][V], bool vis[][V]) {
      }
 }
 
+int getCity(string input) {
+    for (int i = 0; i < V; i++) {
+        if (ciites[i] == input) {
+            return i;
+        }
+    }
+    cout << "Not a Valid City!";
+    return -1;
+}
+
+
 int main(){
-    int start;
-    int goal;
+    std::ifstream fin("routes.csv");
+
     int graph[V][V];
-    vector<int> path = djikstra(graph, start, goal);
+    
+    std::vector<int> row;
+    std::string line, word;
+    
+    while (fin >> line) {
+        int count = 0;
+        row.resize(0);
+        std::stringstream s(line);
+
+        for (unsigned i = 0; i < 40; i++) {
+            std::getline(s, word, ',');
+            row.push_back(stod(word));
+        }
+        copy(row.begin(), row.end(), graph[count]);
+        count++;
+    }
+    
+    string start;
+    cout << "Starting: ";
+    cin >> start;
+    int temp1 = getCity(start);
+    
+    string goal;
+    cout << "Destination: ";
+    cin >> goal;
+    int temp2 = getCity(goal);
+
+    vector<int> path = djikstra(graph, temp1, temp2);
     return 0;
 }
