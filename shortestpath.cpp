@@ -91,8 +91,10 @@ vector<int> BFS(vector<int> adj[V], int start, int goal, int parent[], int dist[
             }
         }
     }
-    printf("No possible routes between %s and %s", start, goal);
-    return NULL;
+    for (auto it = path.begin(); it != path.end();) {
+        path.erase(it);
+    }
+    return path;
 }
 
 int getCity(string input, string cities[V]) {
