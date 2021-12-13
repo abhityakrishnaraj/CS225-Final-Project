@@ -84,7 +84,7 @@ int main(){
         cin >> in2;
         end = getCity(in2, cities);
     }
-    vector<int> path = bfs(adj, start, end);
+    vector<int> path = BFS(adj, start, end);
     
     if(path.empty())
         printf("No possible routes between %s and %s", cities[start], cities[end]);
