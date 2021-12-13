@@ -34,7 +34,7 @@ void getPath(int parent[], int goal, vector<int>& path){
     
     getPath(parent, parent[goal], path);
     path.push_back(goal);
-    printf("%d", goal);
+    printf("%d, ", goal);
 }
 
 vector<int> djikstra(int graph[V][V], int start, int goal){
@@ -163,7 +163,10 @@ int main(){
 
         for (unsigned i = 0; i < 40; i++) {
             std::getline(s, word, ',');
-            row.push_back(stod(word));
+            stringstream w(word);
+            int x = 0;
+            w >> x;
+            row.push_back(x);
         }
         copy(row.begin(), row.end(), graph[count]);
         count++;
