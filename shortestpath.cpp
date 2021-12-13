@@ -94,14 +94,48 @@ void dfs(int row, int col, int grid[V][V], bool vis[][V]) {
      }
 }
 
+int getCity(string input) {
+    for (int i = 0; i < V; i++) {
+        if (ciites[i] == input) {
+            return i;
+        }
+    }
+    cout << "Not a Valid City!";
+    return -1;
+}
+
+
 int main(){
-    int start = 0;
-    int goal = 4;
-    int graph[V][V] = {{0, 0, 1, 0, 2},
-                       {0, 0, 0, 3, 4}, 
-                       {2, 0, 0, 5, 2},
-                       {1, 4, 4, 0, 2}, 
-                       {3, 3, 3, 3, 0}};
+    std::ifstream fin("routes.csv");
+
+    int graph[V][V];
+    
+    std::vector<int> row;
+    std::string line, word;
+    
+    while (fin >> line) {
+        int count = 0;
+        row.resize(0);
+        std::stringstream s(line);
+
+        for (unsigned i = 0; i < 40; i++) {
+            std::getline(s, word, ',');
+            row.push_back(stod(word));
+        }
+        copy(row.begin(), row.end(), graph[count]);
+        count++;
+    }
+    
+    string start;
+    cout << "Starting: ";
+    cin >> start;
+    int temp1 = getCity(start);
+    
+    string goal;
+    cout << "Destination: ";
+    cin >> goal;
+    int temp2 = getCity(goal);
+
     vector<int> path = djikstra(graph, start, goal);
     return 0;
 }
