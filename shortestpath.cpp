@@ -1,15 +1,17 @@
-#pragma once
-
 #include <fstream>
 #include <sstream>
 #include <cstdio>
 #include <climits>
-#include "vector"
 #include "stack"
 #include "iostream"
+#include "cs225/PNG.h"
+#include "gifFunction.hpp"
+#include "visualize.h"
+#include <vector>
 
-#define V 5
+#define V 40
 
+using namespace cs225;
 using namespace std;
 
 int minDist(const int dist[], const bool visit[]){
@@ -102,8 +104,14 @@ void dfs(int row, int col, int grid[V][V], bool vis[][V]) {
 }
 
 int getCity(string input) {
+    string cities[40] = {"Tokyo", "Delhi", "Shanghai", "Sao Paulo", "Mexico City", "Cairo", "Mumbai", "Beijing", 
+                         "Dhaka", "Osaka", "New York City", "Karachi", "Chongqing", "Istanbul", "Buenos Aires", 
+                         "Kolkata", "Lagos", "Dubai", "Manila", "Tianjin", "Paris", "Rome", "Lima", "Athens", 
+                         "Phnom Penh", "Toronto", "London", "Jakarta", "Sydney", "Prague", "Atlanta", "Los Angeles", 
+                         "Chicago", "Hong Kong", "Amsterdam", "Guangzhou", "Frankfurt", "Singapore", "Seoul", "Denver"};
+    
     for (int i = 0; i < V; i++) {
-        if (ciites[i] == input) {
+        if (cities[i] == input) {
             return i;
         }
     }
@@ -113,9 +121,37 @@ int getCity(string input) {
 
 
 int main(){
+    std::vector<std::string> temp;
+    std::vector<PNG> vec;
+    std::vector<std::string> input = {"NRT", "DEL", "LAX", "JFK", "PEK"};
+    Visualize v;
+    v.visualize(input).writeToFile("Final Route.png");
+    //do vector of PNGs
+    PNG base;
+    base.readFromFile("map.png");
+    vec.push_back(base);
+    for (unsigned i = 1; i < input.size(); i++) {
+        for (unsigned j = 0; j <= i; j++) {
+            temp.push_back(input[j]);
+        }
+
+        vec.push_back(v.visualize(temp));
+        temp.clear();
+    }
+
+    gifFunction x;
+    x.makeGif(vec);
+    
     std::ifstream fin("routes.csv");
 
     int graph[V][V];
+    /*
+    string cities[40] = {"Tokyo", "Delhi", "Shanghai", "Sao Paulo", "Mexico City", "Cairo", "Mumbai", "Beijing",
+                         "Dhaka", "Osaka", "New York City", "Karachi", "Chongqing", "Istanbul", "Buenos Aires",
+                         "Kolkata", "Lagos", "Dubai", "Manila", "Tianjin", "Paris", "Rome", "Lima", "Athens",
+                         "Phnom Penh", "Toronto", "London", "Jakarta", "Sydney", "Prague", "Atlanta", "Los Angeles",
+                         "Chicago", "Hong Kong", "Amsterdam", "Guangzhou", "Frankfurt", "Singapore", "Seoul", "Denver"};
+    */
     
     std::vector<int> row;
     std::string line, word;

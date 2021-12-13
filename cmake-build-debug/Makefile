@@ -143,6 +143,60 @@ tongwei3_abhitya2_seohyec2_yusongw2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build
 .PHONY : tongwei3_abhitya2_seohyec2_yusongw2/fast
 
+Animation.o: Animation.cpp.o
+
+.PHONY : Animation.o
+
+# target to build an object file
+Animation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/Animation.cpp.o
+.PHONY : Animation.cpp.o
+
+Animation.i: Animation.cpp.i
+
+.PHONY : Animation.i
+
+# target to preprocess a source file
+Animation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/Animation.cpp.i
+.PHONY : Animation.cpp.i
+
+Animation.s: Animation.cpp.s
+
+.PHONY : Animation.s
+
+# target to generate assembly for a file
+Animation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/Animation.cpp.s
+.PHONY : Animation.cpp.s
+
+circle.o: circle.cpp.o
+
+.PHONY : circle.o
+
+# target to build an object file
+circle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/circle.cpp.o
+.PHONY : circle.cpp.o
+
+circle.i: circle.cpp.i
+
+.PHONY : circle.i
+
+# target to preprocess a source file
+circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/circle.cpp.i
+.PHONY : circle.cpp.i
+
+circle.s: circle.cpp.s
+
+.PHONY : circle.s
+
+# target to generate assembly for a file
+circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/circle.cpp.s
+.PHONY : circle.cpp.s
+
 cs225/HSLAPixel.o: cs225/HSLAPixel.cpp.o
 
 .PHONY : cs225/HSLAPixel.o
@@ -197,33 +251,6 @@ cs225/PNG.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/cs225/PNG.cpp.s
 .PHONY : cs225/PNG.cpp.s
 
-cs225/catch/catchmain.o: cs225/catch/catchmain.cpp.o
-
-.PHONY : cs225/catch/catchmain.o
-
-# target to build an object file
-cs225/catch/catchmain.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/cs225/catch/catchmain.cpp.o
-.PHONY : cs225/catch/catchmain.cpp.o
-
-cs225/catch/catchmain.i: cs225/catch/catchmain.cpp.i
-
-.PHONY : cs225/catch/catchmain.i
-
-# target to preprocess a source file
-cs225/catch/catchmain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/cs225/catch/catchmain.cpp.i
-.PHONY : cs225/catch/catchmain.cpp.i
-
-cs225/catch/catchmain.s: cs225/catch/catchmain.cpp.s
-
-.PHONY : cs225/catch/catchmain.s
-
-# target to generate assembly for a file
-cs225/catch/catchmain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/cs225/catch/catchmain.cpp.s
-.PHONY : cs225/catch/catchmain.cpp.s
-
 cs225/lodepng/lodepng.o: cs225/lodepng/lodepng.cpp.o
 
 .PHONY : cs225/lodepng/lodepng.o
@@ -251,302 +278,86 @@ cs225/lodepng/lodepng.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/cs225/lodepng/lodepng.cpp.s
 .PHONY : cs225/lodepng/lodepng.cpp.s
 
-graphingpart/Animation.o: graphingpart/Animation.cpp.o
+line.o: line.cpp.o
 
-.PHONY : graphingpart/Animation.o
-
-# target to build an object file
-graphingpart/Animation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/Animation.cpp.o
-.PHONY : graphingpart/Animation.cpp.o
-
-graphingpart/Animation.i: graphingpart/Animation.cpp.i
-
-.PHONY : graphingpart/Animation.i
-
-# target to preprocess a source file
-graphingpart/Animation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/Animation.cpp.i
-.PHONY : graphingpart/Animation.cpp.i
-
-graphingpart/Animation.s: graphingpart/Animation.cpp.s
-
-.PHONY : graphingpart/Animation.s
-
-# target to generate assembly for a file
-graphingpart/Animation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/Animation.cpp.s
-.PHONY : graphingpart/Animation.cpp.s
-
-graphingpart/circle.o: graphingpart/circle.cpp.o
-
-.PHONY : graphingpart/circle.o
+.PHONY : line.o
 
 # target to build an object file
-graphingpart/circle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/circle.cpp.o
-.PHONY : graphingpart/circle.cpp.o
+line.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/line.cpp.o
+.PHONY : line.cpp.o
 
-graphingpart/circle.i: graphingpart/circle.cpp.i
+line.i: line.cpp.i
 
-.PHONY : graphingpart/circle.i
+.PHONY : line.i
 
 # target to preprocess a source file
-graphingpart/circle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/circle.cpp.i
-.PHONY : graphingpart/circle.cpp.i
+line.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/line.cpp.i
+.PHONY : line.cpp.i
 
-graphingpart/circle.s: graphingpart/circle.cpp.s
+line.s: line.cpp.s
 
-.PHONY : graphingpart/circle.s
+.PHONY : line.s
 
 # target to generate assembly for a file
-graphingpart/circle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/circle.cpp.s
-.PHONY : graphingpart/circle.cpp.s
+line.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/line.cpp.s
+.PHONY : line.cpp.s
 
-graphingpart/cs225/HSLAPixel.o: graphingpart/cs225/HSLAPixel.cpp.o
+main.o: main.cpp.o
 
-.PHONY : graphingpart/cs225/HSLAPixel.o
+.PHONY : main.o
 
 # target to build an object file
-graphingpart/cs225/HSLAPixel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/cs225/HSLAPixel.cpp.o
-.PHONY : graphingpart/cs225/HSLAPixel.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-graphingpart/cs225/HSLAPixel.i: graphingpart/cs225/HSLAPixel.cpp.i
+main.i: main.cpp.i
 
-.PHONY : graphingpart/cs225/HSLAPixel.i
+.PHONY : main.i
 
 # target to preprocess a source file
-graphingpart/cs225/HSLAPixel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/cs225/HSLAPixel.cpp.i
-.PHONY : graphingpart/cs225/HSLAPixel.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-graphingpart/cs225/HSLAPixel.s: graphingpart/cs225/HSLAPixel.cpp.s
+main.s: main.cpp.s
 
-.PHONY : graphingpart/cs225/HSLAPixel.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-graphingpart/cs225/HSLAPixel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/cs225/HSLAPixel.cpp.s
-.PHONY : graphingpart/cs225/HSLAPixel.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/main.cpp.s
+.PHONY : main.cpp.s
 
-graphingpart/cs225/PNG.o: graphingpart/cs225/PNG.cpp.o
+shape.o: shape.cpp.o
 
-.PHONY : graphingpart/cs225/PNG.o
+.PHONY : shape.o
 
 # target to build an object file
-graphingpart/cs225/PNG.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/cs225/PNG.cpp.o
-.PHONY : graphingpart/cs225/PNG.cpp.o
+shape.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/shape.cpp.o
+.PHONY : shape.cpp.o
 
-graphingpart/cs225/PNG.i: graphingpart/cs225/PNG.cpp.i
+shape.i: shape.cpp.i
 
-.PHONY : graphingpart/cs225/PNG.i
-
-# target to preprocess a source file
-graphingpart/cs225/PNG.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/cs225/PNG.cpp.i
-.PHONY : graphingpart/cs225/PNG.cpp.i
-
-graphingpart/cs225/PNG.s: graphingpart/cs225/PNG.cpp.s
-
-.PHONY : graphingpart/cs225/PNG.s
-
-# target to generate assembly for a file
-graphingpart/cs225/PNG.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/cs225/PNG.cpp.s
-.PHONY : graphingpart/cs225/PNG.cpp.s
-
-graphingpart/cs225/catch/catchmain.o: graphingpart/cs225/catch/catchmain.cpp.o
-
-.PHONY : graphingpart/cs225/catch/catchmain.o
-
-# target to build an object file
-graphingpart/cs225/catch/catchmain.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/cs225/catch/catchmain.cpp.o
-.PHONY : graphingpart/cs225/catch/catchmain.cpp.o
-
-graphingpart/cs225/catch/catchmain.i: graphingpart/cs225/catch/catchmain.cpp.i
-
-.PHONY : graphingpart/cs225/catch/catchmain.i
+.PHONY : shape.i
 
 # target to preprocess a source file
-graphingpart/cs225/catch/catchmain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/cs225/catch/catchmain.cpp.i
-.PHONY : graphingpart/cs225/catch/catchmain.cpp.i
+shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/shape.cpp.i
+.PHONY : shape.cpp.i
 
-graphingpart/cs225/catch/catchmain.s: graphingpart/cs225/catch/catchmain.cpp.s
+shape.s: shape.cpp.s
 
-.PHONY : graphingpart/cs225/catch/catchmain.s
-
-# target to generate assembly for a file
-graphingpart/cs225/catch/catchmain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/cs225/catch/catchmain.cpp.s
-.PHONY : graphingpart/cs225/catch/catchmain.cpp.s
-
-graphingpart/cs225/lodepng/lodepng.o: graphingpart/cs225/lodepng/lodepng.cpp.o
-
-.PHONY : graphingpart/cs225/lodepng/lodepng.o
-
-# target to build an object file
-graphingpart/cs225/lodepng/lodepng.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/cs225/lodepng/lodepng.cpp.o
-.PHONY : graphingpart/cs225/lodepng/lodepng.cpp.o
-
-graphingpart/cs225/lodepng/lodepng.i: graphingpart/cs225/lodepng/lodepng.cpp.i
-
-.PHONY : graphingpart/cs225/lodepng/lodepng.i
-
-# target to preprocess a source file
-graphingpart/cs225/lodepng/lodepng.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/cs225/lodepng/lodepng.cpp.i
-.PHONY : graphingpart/cs225/lodepng/lodepng.cpp.i
-
-graphingpart/cs225/lodepng/lodepng.s: graphingpart/cs225/lodepng/lodepng.cpp.s
-
-.PHONY : graphingpart/cs225/lodepng/lodepng.s
+.PHONY : shape.s
 
 # target to generate assembly for a file
-graphingpart/cs225/lodepng/lodepng.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/cs225/lodepng/lodepng.cpp.s
-.PHONY : graphingpart/cs225/lodepng/lodepng.cpp.s
-
-graphingpart/line.o: graphingpart/line.cpp.o
-
-.PHONY : graphingpart/line.o
-
-# target to build an object file
-graphingpart/line.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/line.cpp.o
-.PHONY : graphingpart/line.cpp.o
-
-graphingpart/line.i: graphingpart/line.cpp.i
-
-.PHONY : graphingpart/line.i
-
-# target to preprocess a source file
-graphingpart/line.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/line.cpp.i
-.PHONY : graphingpart/line.cpp.i
-
-graphingpart/line.s: graphingpart/line.cpp.s
-
-.PHONY : graphingpart/line.s
-
-# target to generate assembly for a file
-graphingpart/line.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/line.cpp.s
-.PHONY : graphingpart/line.cpp.s
-
-graphingpart/main.o: graphingpart/main.cpp.o
-
-.PHONY : graphingpart/main.o
-
-# target to build an object file
-graphingpart/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/main.cpp.o
-.PHONY : graphingpart/main.cpp.o
-
-graphingpart/main.i: graphingpart/main.cpp.i
-
-.PHONY : graphingpart/main.i
-
-# target to preprocess a source file
-graphingpart/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/main.cpp.i
-.PHONY : graphingpart/main.cpp.i
-
-graphingpart/main.s: graphingpart/main.cpp.s
-
-.PHONY : graphingpart/main.s
-
-# target to generate assembly for a file
-graphingpart/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/main.cpp.s
-.PHONY : graphingpart/main.cpp.s
-
-graphingpart/shape.o: graphingpart/shape.cpp.o
-
-.PHONY : graphingpart/shape.o
-
-# target to build an object file
-graphingpart/shape.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/shape.cpp.o
-.PHONY : graphingpart/shape.cpp.o
-
-graphingpart/shape.i: graphingpart/shape.cpp.i
-
-.PHONY : graphingpart/shape.i
-
-# target to preprocess a source file
-graphingpart/shape.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/shape.cpp.i
-.PHONY : graphingpart/shape.cpp.i
-
-graphingpart/shape.s: graphingpart/shape.cpp.s
-
-.PHONY : graphingpart/shape.s
-
-# target to generate assembly for a file
-graphingpart/shape.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/shape.cpp.s
-.PHONY : graphingpart/shape.cpp.s
-
-graphingpart/vector2.o: graphingpart/vector2.cpp.o
-
-.PHONY : graphingpart/vector2.o
-
-# target to build an object file
-graphingpart/vector2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/vector2.cpp.o
-.PHONY : graphingpart/vector2.cpp.o
-
-graphingpart/vector2.i: graphingpart/vector2.cpp.i
-
-.PHONY : graphingpart/vector2.i
-
-# target to preprocess a source file
-graphingpart/vector2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/vector2.cpp.i
-.PHONY : graphingpart/vector2.cpp.i
-
-graphingpart/vector2.s: graphingpart/vector2.cpp.s
-
-.PHONY : graphingpart/vector2.s
-
-# target to generate assembly for a file
-graphingpart/vector2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/vector2.cpp.s
-.PHONY : graphingpart/vector2.cpp.s
-
-graphingpart/visualize.o: graphingpart/visualize.cpp.o
-
-.PHONY : graphingpart/visualize.o
-
-# target to build an object file
-graphingpart/visualize.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/visualize.cpp.o
-.PHONY : graphingpart/visualize.cpp.o
-
-graphingpart/visualize.i: graphingpart/visualize.cpp.i
-
-.PHONY : graphingpart/visualize.i
-
-# target to preprocess a source file
-graphingpart/visualize.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/visualize.cpp.i
-.PHONY : graphingpart/visualize.cpp.i
-
-graphingpart/visualize.s: graphingpart/visualize.cpp.s
-
-.PHONY : graphingpart/visualize.s
-
-# target to generate assembly for a file
-graphingpart/visualize.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/visualize.cpp.s
-.PHONY : graphingpart/visualize.cpp.s
+shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/shape.cpp.s
+.PHONY : shape.cpp.s
 
 shortestpath.o: shortestpath.cpp.o
 
@@ -575,6 +386,60 @@ shortestpath.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/shortestpath.cpp.s
 .PHONY : shortestpath.cpp.s
 
+vector2.o: vector2.cpp.o
+
+.PHONY : vector2.o
+
+# target to build an object file
+vector2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/vector2.cpp.o
+.PHONY : vector2.cpp.o
+
+vector2.i: vector2.cpp.i
+
+.PHONY : vector2.i
+
+# target to preprocess a source file
+vector2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/vector2.cpp.i
+.PHONY : vector2.cpp.i
+
+vector2.s: vector2.cpp.s
+
+.PHONY : vector2.s
+
+# target to generate assembly for a file
+vector2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/vector2.cpp.s
+.PHONY : vector2.cpp.s
+
+visualize.o: visualize.cpp.o
+
+.PHONY : visualize.o
+
+# target to build an object file
+visualize.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/visualize.cpp.o
+.PHONY : visualize.cpp.o
+
+visualize.i: visualize.cpp.i
+
+.PHONY : visualize.i
+
+# target to preprocess a source file
+visualize.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/visualize.cpp.i
+.PHONY : visualize.cpp.i
+
+visualize.s: visualize.cpp.s
+
+.PHONY : visualize.s
+
+# target to generate assembly for a file
+visualize.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/visualize.cpp.s
+.PHONY : visualize.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -584,54 +449,39 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tongwei3_abhitya2_seohyec2_yusongw2"
+	@echo "... Animation.o"
+	@echo "... Animation.i"
+	@echo "... Animation.s"
+	@echo "... circle.o"
+	@echo "... circle.i"
+	@echo "... circle.s"
 	@echo "... cs225/HSLAPixel.o"
 	@echo "... cs225/HSLAPixel.i"
 	@echo "... cs225/HSLAPixel.s"
 	@echo "... cs225/PNG.o"
 	@echo "... cs225/PNG.i"
 	@echo "... cs225/PNG.s"
-	@echo "... cs225/catch/catchmain.o"
-	@echo "... cs225/catch/catchmain.i"
-	@echo "... cs225/catch/catchmain.s"
 	@echo "... cs225/lodepng/lodepng.o"
 	@echo "... cs225/lodepng/lodepng.i"
 	@echo "... cs225/lodepng/lodepng.s"
-	@echo "... graphingpart/Animation.o"
-	@echo "... graphingpart/Animation.i"
-	@echo "... graphingpart/Animation.s"
-	@echo "... graphingpart/circle.o"
-	@echo "... graphingpart/circle.i"
-	@echo "... graphingpart/circle.s"
-	@echo "... graphingpart/cs225/HSLAPixel.o"
-	@echo "... graphingpart/cs225/HSLAPixel.i"
-	@echo "... graphingpart/cs225/HSLAPixel.s"
-	@echo "... graphingpart/cs225/PNG.o"
-	@echo "... graphingpart/cs225/PNG.i"
-	@echo "... graphingpart/cs225/PNG.s"
-	@echo "... graphingpart/cs225/catch/catchmain.o"
-	@echo "... graphingpart/cs225/catch/catchmain.i"
-	@echo "... graphingpart/cs225/catch/catchmain.s"
-	@echo "... graphingpart/cs225/lodepng/lodepng.o"
-	@echo "... graphingpart/cs225/lodepng/lodepng.i"
-	@echo "... graphingpart/cs225/lodepng/lodepng.s"
-	@echo "... graphingpart/line.o"
-	@echo "... graphingpart/line.i"
-	@echo "... graphingpart/line.s"
-	@echo "... graphingpart/main.o"
-	@echo "... graphingpart/main.i"
-	@echo "... graphingpart/main.s"
-	@echo "... graphingpart/shape.o"
-	@echo "... graphingpart/shape.i"
-	@echo "... graphingpart/shape.s"
-	@echo "... graphingpart/vector2.o"
-	@echo "... graphingpart/vector2.i"
-	@echo "... graphingpart/vector2.s"
-	@echo "... graphingpart/visualize.o"
-	@echo "... graphingpart/visualize.i"
-	@echo "... graphingpart/visualize.s"
+	@echo "... line.o"
+	@echo "... line.i"
+	@echo "... line.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... shape.o"
+	@echo "... shape.i"
+	@echo "... shape.s"
 	@echo "... shortestpath.o"
 	@echo "... shortestpath.i"
 	@echo "... shortestpath.s"
+	@echo "... vector2.o"
+	@echo "... vector2.i"
+	@echo "... vector2.s"
+	@echo "... visualize.o"
+	@echo "... visualize.i"
+	@echo "... visualize.s"
 .PHONY : help
 
 
