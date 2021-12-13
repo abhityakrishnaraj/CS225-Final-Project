@@ -8,6 +8,7 @@
 #include "gifFunction.hpp"
 #include "visualize.h"
 #include <vector>
+#include <queue>
 
 #define V 40
 
