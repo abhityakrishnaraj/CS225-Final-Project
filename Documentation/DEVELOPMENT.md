@@ -1,6 +1,3 @@
-<<<<<<< HEAD:Documentation/DEVELOPMENT.md
-﻿
-
 Week of November 8
 
 ● We initially met up to work on the team contract and started working on ideas for the
@@ -48,8 +45,6 @@ improvements for users inputting cities into the code. Some problems did rise up
 creation of the algorithm and the importation of data but they were resolved in the group
 
 meeting. Also had the mid- point presentation this week that went ok.
-=======
-﻿
 
 Week of November 8
 
@@ -101,11 +96,20 @@ meeting. Also had the mid- point presentation this week that went ok.
 
 Week of December 6
 
-● The group was separated into two teams to work on the Algorithm part and Graphing part of the code.
-Algorithm part takes in user input and generates a shortest path consisting of a list of city names. Graphing part takes in the list of cities and generates 1. A png file for final minimum 2. A gif indicating how the path develops. 
+● The group was separated into two teams to work on the Algorithm part and Graphing part of the 
 
-● Combine code from two parts explained above
+code. Both teams had pretty much completed the allotted task by the following meeting. The 
 
-● Make presentation
+algorithm group was able to take in user input and generates a shortest path consisting of
 
->>>>>>> 65d56863e3d7b1df2778402b408cdee5c2d6d444:DEVELOPMENT.md
+the city indexes. The graphing team was taking in the list of airport codes and were able to
+
+generate a PNG file that connected the given airport codes together and a GIF file that
+
+precisely indicated how the path develops. During the meeting the teams came together to properly
+
+integrate together the two parts to produce the final PNG/GIF output from an input consisting of
+
+a start point and end point. We also all worked together to start working on the final powerpoint
+
+presentation.
