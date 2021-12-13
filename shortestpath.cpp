@@ -136,6 +136,6 @@ int main(){
     cin >> goal;
     int temp2 = getCity(goal);
 
-    vector<int> path = djikstra(graph, start, goal);
+    vector<int> path = djikstra(graph, temp1, temp2);
     return 0;
 }
