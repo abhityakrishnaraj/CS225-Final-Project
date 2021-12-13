@@ -103,12 +103,12 @@ void dfs(int row, int col, int grid[V][V], bool vis[][V]) {
      }
 }
 
-int getCity(string input) {
-    string cities[40] = {"Tokyo", "Delhi", "Shanghai", "Sao Paulo", "Mexico City", "Cairo", "Mumbai", "Beijing", 
+int getCity(string input, string cities[V]) {
+    /*string cities[40] = {"Tokyo", "Delhi", "Shanghai", "Sao Paulo", "Mexico City", "Cairo", "Mumbai", "Beijing", 
                          "Dhaka", "Osaka", "New York City", "Karachi", "Chongqing", "Istanbul", "Buenos Aires", 
                          "Kolkata", "Lagos", "Dubai", "Manila", "Tianjin", "Paris", "Rome", "Lima", "Athens", 
                          "Phnom Penh", "Toronto", "London", "Jakarta", "Sydney", "Prague", "Atlanta", "Los Angeles", 
-                         "Chicago", "Hong Kong", "Amsterdam", "Guangzhou", "Frankfurt", "Singapore", "Seoul", "Denver"};
+                         "Chicago", "Hong Kong", "Amsterdam", "Guangzhou", "Frankfurt", "Singapore", "Seoul", "Denver"};*/
     
     for (int i = 0; i < V; i++) {
         if (cities[i] == input) {
@@ -143,8 +143,7 @@ int main(){
     gifFunction x;
     x.makeGif(vec);
     */
-    std::ifstream fin("routes.csv");
-
+    
     int graph[V][V];
     /*
     string cities[40] = {"Tokyo", "Delhi", "Shanghai", "Sao Paulo", "Mexico City", "Cairo", "Mumbai", "Beijing",
@@ -153,16 +152,16 @@ int main(){
                          "Phnom Penh", "Toronto", "London", "Jakarta", "Sydney", "Prague", "Atlanta", "Los Angeles",
                          "Chicago", "Hong Kong", "Amsterdam", "Guangzhou", "Frankfurt", "Singapore", "Seoul", "Denver"};
     */
-    
-    std::vector<int> row;
-    std::string line, word;
+    ifstream rout("routes.csv");
+    vector<int> row;
+    string line, word;
     int count = 0;
-    while (fin >> line) {
+    while (rout >> line) {
         row.resize(0);
-        std::stringstream s(line);
+        stringstream s(line);
 
-        for (unsigned i = 0; i < 40; i++) {
-            std::getline(s, word, ',');
+        for (int i = 0; i < V; i++) {
+            getline(s, word, ',');
             stringstream w(word);
             int x = 0;
             w >> x;
@@ -172,23 +171,50 @@ int main(){
         count++;
     }
     
-    int temp1 = -1;
-    int temp2 = -1;
+    string cities[V];
+    string countries[V];
+    string continents[V];
+    string codes[V];
+    
+    ifstream air("cities.csv");
+    count = 0;
+    while(air >> line){
+        stringstream s(line);
+        for(int i = 0; i < 4; i++){
+            getline(s, word, ',');
+            if(i == 0)
+                cities[count] = word;
+            else if(i == 1)
+                countries[count] = word;
+            else if(i == 2)
+                continents[count] = word;
+            else
+                codes[count] = word;
+        }
+        count ++;
+    }
+    
+    int start = -1;
+    int end = -1;
     
     while (temp1 < 0) {
-        string start;
+        string in1;
         cout << "Starting: ";
-        cin >> start;
-        temp1 = getCity(start);
+        cin >> in1;
+        start = getCity(in1, cities);
     }
     
     while (temp2 < 0) {
-        string goal;
+        string in2;
         cout << "Destination: ";
-        cin >> goal;
-        temp2 = getCity(goal);
+        cin >> in2;
+        end = getCity(in2, cities);
     }
 
-    vector<int> path = djikstra(graph, temp1, temp2);
+    vector<int> path = djikstra(graph, start, end);
+    vector<string> codepath;
+    for(int i = 0; i < path.size(); i++){
+        codepath.push_back(codes[path.at(i)]);
+    }
     return 0;
 }
