@@ -213,31 +213,10 @@ int getCity(string input, string cities[V]) {
 //         count++;
 //     }
     
-<<<<<<< HEAD
 //     string cities[V];
 //     string countries[V];
 //     string continents[V];
 //     string codes[V];
-=======
-    vector<int> adj[V];
-    int lmtgraph[V][V];
-    for(int i = 0; i < V; i++){
-        for(int j = 0; j < V; j++){
-            if(graph[i][j]<600 && graph[i][j]>0){
-                lmtgraph[i][j] = graph[i][j];
-                adj[i].push_back(j);
-                adj[j].push_back(i);
-            }
-            else
-                lmtgraph[i][j] = 0;
-        }
-    }
-    
-    string cities[V];
-    string countries[V];
-    string continents[V];
-    string codes[V];
->>>>>>> dfae74047b3b5f39aff2897147151984e7219b6f
     
 //     ifstream air("cities.csv");
 //     count = 0;
