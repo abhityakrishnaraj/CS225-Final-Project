@@ -17,7 +17,7 @@ int minDist(int dist[], bool visit[]){
     return idx;
 }
 
-void getPath(int parent[], int goal, vector<int>* path){
+void getPath(int parent[], int goal, vector<int>& path){
     if(parent[goal] == -1)
         return NULL;
     getPath(parent, parent[goal], path);
@@ -57,6 +57,6 @@ int main(){
     int start;
     int goal;
     int graph[V][V];
-    djikstra(graph, start, goal);
+    vector<int> path = djikstra(graph, start, goal);
     return 0;
 }
