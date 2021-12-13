@@ -272,178 +272,9 @@ CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/visualize.cpp.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/visualize.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/graphingpart/visualize.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/visualize.cpp.s
 
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/catch/catchmain.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/catch/catchmain.cpp.o: ../src/cs225/catch/catchmain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/catch/catchmain.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/catch/catchmain.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/catch/catchmain.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/catch/catchmain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/catch/catchmain.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/catch/catchmain.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/catch/catchmain.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/catch/catchmain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/catch/catchmain.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/catch/catchmain.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/catch/catchmain.cpp.s
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/lodepng/lodepng.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/lodepng/lodepng.cpp.o: ../src/cs225/lodepng/lodepng.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/lodepng/lodepng.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/lodepng/lodepng.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/lodepng/lodepng.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/lodepng/lodepng.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/lodepng/lodepng.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/lodepng/lodepng.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/lodepng/lodepng.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/lodepng/lodepng.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/lodepng/lodepng.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/lodepng/lodepng.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/lodepng/lodepng.cpp.s
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/HSLAPixel.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/HSLAPixel.cpp.o: ../src/cs225/HSLAPixel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/HSLAPixel.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/HSLAPixel.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/HSLAPixel.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/HSLAPixel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/HSLAPixel.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/HSLAPixel.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/HSLAPixel.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/HSLAPixel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/HSLAPixel.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/HSLAPixel.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/HSLAPixel.cpp.s
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/PNG.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/PNG.cpp.o: ../src/cs225/PNG.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/PNG.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/PNG.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/PNG.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/PNG.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/PNG.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/PNG.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/PNG.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/PNG.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/PNG.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/PNG.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/PNG.cpp.s
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/Animation.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/Animation.cpp.o: ../src/Animation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/Animation.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/Animation.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/Animation.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/Animation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/Animation.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/Animation.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/Animation.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/Animation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/Animation.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/Animation.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/Animation.cpp.s
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/circle.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/circle.cpp.o: ../src/circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/circle.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/circle.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/circle.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/circle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/circle.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/circle.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/circle.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/circle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/circle.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/circle.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/circle.cpp.s
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/gifFunction.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/gifFunction.cpp.o: ../src/gifFunction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/gifFunction.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/gifFunction.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/gifFunction.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/gifFunction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/gifFunction.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/gifFunction.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/gifFunction.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/gifFunction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/gifFunction.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/gifFunction.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/gifFunction.cpp.s
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/line.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/line.cpp.o: ../src/line.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/line.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/line.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/line.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/line.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/line.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/line.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/line.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/line.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/line.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/line.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/line.cpp.s
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/main.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/main.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/main.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/main.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/main.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/main.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/main.cpp.s
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/shape.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/shape.cpp.o: ../src/shape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/shape.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/shape.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/shape.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/shape.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/shape.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/shape.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/shape.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/shape.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/shape.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/shape.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/shape.cpp.s
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/vector2.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/vector2.cpp.o: ../src/vector2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/vector2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/vector2.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/vector2.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/vector2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/vector2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/vector2.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/vector2.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/vector2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/vector2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/vector2.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/vector2.cpp.s
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/visualize.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/visualize.cpp.o: ../src/visualize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/visualize.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/visualize.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/visualize.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/visualize.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/visualize.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/visualize.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/visualize.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/visualize.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/visualize.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/visualize.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/visualize.cpp.s
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/gifFunction.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/gifFunction.cpp.o: ../gifFunction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/gifFunction.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/gifFunction.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/gifFunction.cpp
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/gifFunction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/gifFunction.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/gifFunction.cpp > CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/gifFunction.cpp.i
-
-CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/gifFunction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/gifFunction.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/gifFunction.cpp -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/gifFunction.cpp.s
-
 CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/shortestpath.cpp.o: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/flags.make
 CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/shortestpath.cpp.o: ../shortestpath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/shortestpath.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/shortestpath.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/shortestpath.cpp.o -c /Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/shortestpath.cpp
 
 CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/shortestpath.cpp.i: cmake_force
@@ -471,19 +302,6 @@ tongwei3_abhitya2_seohyec2_yusongw2_OBJECTS = \
 "CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/shape.cpp.o" \
 "CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/vector2.cpp.o" \
 "CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/visualize.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/catch/catchmain.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/lodepng/lodepng.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/HSLAPixel.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/PNG.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/Animation.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/circle.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/gifFunction.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/line.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/main.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/shape.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/vector2.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/visualize.cpp.o" \
-"CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/gifFunction.cpp.o" \
 "CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/shortestpath.cpp.o"
 
 # External object files for target tongwei3_abhitya2_seohyec2_yusongw2
@@ -504,23 +322,10 @@ tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yuson
 tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/shape.cpp.o
 tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/vector2.cpp.o
 tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/graphingpart/visualize.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/catch/catchmain.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/lodepng/lodepng.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/HSLAPixel.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/cs225/PNG.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/Animation.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/circle.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/gifFunction.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/line.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/main.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/shape.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/vector2.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/src/visualize.cpp.o
-tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/gifFunction.cpp.o
 tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/shortestpath.cpp.o
 tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/build.make
 tongwei3_abhitya2_seohyec2_yusongw2: CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable tongwei3_abhitya2_seohyec2_yusongw2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable tongwei3_abhitya2_seohyec2_yusongw2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tongwei3_abhitya2_seohyec2_yusongw2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

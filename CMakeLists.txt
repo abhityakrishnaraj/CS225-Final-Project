@@ -10,10 +10,6 @@ include_directories(graphingpart)
 include_directories(graphingpart/cs225)
 include_directories(graphingpart/cs225/catch)
 include_directories(graphingpart/cs225/lodepng)
-include_directories(src)
-include_directories(src/cs225)
-include_directories(src/cs225/catch)
-include_directories(src/cs225/lodepng)
 
 add_executable(tongwei3_abhitya2_seohyec2_yusongw2
         cs225/catch/catch.hpp
@@ -50,31 +46,4 @@ add_executable(tongwei3_abhitya2_seohyec2_yusongw2
         graphingpart/vector2.h
         graphingpart/visualize.cpp
         graphingpart/visualize.h
-        src/cs225/catch/catch.hpp
-        src/cs225/catch/catchmain.cpp
-        src/cs225/lodepng/lodepng.cpp
-        src/cs225/lodepng/lodepng.h
-        src/cs225/HSLAPixel.cpp
-        src/cs225/HSLAPixel.h
-        src/cs225/PNG.cpp
-        src/cs225/PNG.h
-        src/cs225/RGB_HSL.h
-        src/Animation.cpp
-        src/Animation.h
-        src/circle.cpp
-        src/circle.h
-        src/color.h
-        src/drawable.h
-        src/gifFunction.cpp
-        src/gifFunction.h
-        src/line.cpp
-        src/line.h
-        src/main.cpp
-        src/shape.cpp
-        src/shape.h
-        src/vector2.cpp
-        src/vector2.h
-        src/visualize.cpp
-        src/visualize.h
-        gifFunction.cpp
         shortestpath.cpp)

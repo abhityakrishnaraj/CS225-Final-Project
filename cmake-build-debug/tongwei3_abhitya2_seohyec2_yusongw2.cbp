@@ -51,10 +51,6 @@
 					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/graphingpart/cs225"/>
 					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/graphingpart/cs225/catch"/>
 					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/graphingpart/cs225/lodepng"/>
-					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src"/>
-					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225"/>
-					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/catch"/>
-					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/lodepng"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -83,10 +79,6 @@
 					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/graphingpart/cs225"/>
 					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/graphingpart/cs225/catch"/>
 					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/graphingpart/cs225/lodepng"/>
-					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src"/>
-					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225"/>
-					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/catch"/>
-					<Add directory="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/lodepng"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -127,9 +119,6 @@
 			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
 		</Unit>
 		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/cs225/lodepng/lodepng.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/gifFunction.cpp">
 			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
 		</Unit>
 		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/graphingpart/Animation.cpp">
@@ -208,84 +197,6 @@
 			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
 		</Unit>
 		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/shortestpath.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/Animation.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/Animation.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/circle.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/circle.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/color.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/HSLAPixel.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/HSLAPixel.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/PNG.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/PNG.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/RGB_HSL.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/catch/catch.hpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/catch/catchmain.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/lodepng/lodepng.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/cs225/lodepng/lodepng.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/drawable.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/gifFunction.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/gifFunction.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/line.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/line.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/main.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/shape.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/shape.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/vector2.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/vector2.h">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/visualize.cpp">
-			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
-		</Unit>
-		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/src/visualize.h">
 			<Option target="tongwei3_abhitya2_seohyec2_yusongw2"/>
 		</Unit>
 		<Unit filename="/Users/tonywei/Downloads/Cinder/my-projects/tongwei3-abhitya2-seohyec2-yusongw2/CMakeLists.txt">
