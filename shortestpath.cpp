@@ -115,12 +115,13 @@ int getCity(string input) {
             return i;
         }
     }
-    cout << "Not a Valid City!";
+    cout << "Not a Valid City! \n";
     return -1;
 }
 
 
 int main(){
+    /*
     std::vector<std::string> temp;
     std::vector<PNG> vec;
     std::vector<std::string> input = {"NRT", "DEL", "LAX", "JFK", "PEK"};
@@ -141,7 +142,7 @@ int main(){
 
     gifFunction x;
     x.makeGif(vec);
-    
+    */
     std::ifstream fin("routes.csv");
 
     int graph[V][V];
@@ -169,15 +170,22 @@ int main(){
         count++;
     }
     
-    string start;
-    cout << "Starting: ";
-    cin >> start;
-    int temp1 = getCity(start);
+    int temp1 = -1;
+    int temp2 = -1;
     
-    string goal;
-    cout << "Destination: ";
-    cin >> goal;
-    int temp2 = getCity(goal);
+    while (temp1 < 0) {
+        string start;
+        cout << "Starting: ";
+        cin >> start;
+        temp1 = getCity(start);
+    }
+    
+    while (temp2 < 0) {
+        string goal;
+        cout << "Destination: ";
+        cin >> goal;
+        temp2 = getCity(goal);
+    }
 
     vector<int> path = djikstra(graph, temp1, temp2);
     return 0;
