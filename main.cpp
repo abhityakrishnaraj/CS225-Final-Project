@@ -86,6 +86,9 @@ int main(){
     }
     vector<int> path = bfs(adj, start, end);
     
+    if(path.empty())
+        printf("No possible routes between %s and %s", start, goal);
+    
     vector<int> strpath;
     for(unsigned i = 0; i < path.size(); i++){
         cout << cities[path.at(i)] + " ";
