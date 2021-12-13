@@ -3,8 +3,11 @@
 #include "visualize.h"
 #include <vector>
 #include "shortestpath.cpp"
+#include <queue>
 
 using namespace cs225;
+using namespace std;
+
 int main(){
     int graph[V][V];
     ifstream rout("Data/routes.csv");
@@ -82,17 +85,30 @@ int main(){
         cin >> in2;
         end = getCity(in2, cities);
     }
-    vector<int> path = djikstra(lmtgraph, start, end);
+    vector<int> path = bfs(adj, start, end);
     
+    vector<int> strpath;
+    for(unsigned i = 0; i < path.size(); i++){
+        cout << cities[path.at(i)] + " ";
+        strpath.push_back(codes[path.at(i)];
+    }
+    
+    vector<string> & input2 = strpath;
+                          
+    Visualize v;
+                          
+    v.visualize(input2).writeToFile("BFS Route.png");
+            
+    path = djikstra(lmtgraph, start, end);
+                          
     vector<string> codepath;
     for(unsigned i = 0; i < path.size(); i++) {
         cout << cities[path.at(i)] + " ";
         codepath.push_back(codes[path.at(i)]);
     }
     vector<string> & input = codepath;
-    std::vector<std::string> temp;
-    std::vector<PNG> vec;
-    Visualize v;
+    vector<string> temp;
+    vector<PNG> vec;
     v.visualize(input).writeToFile("Final Route.png");
     //do vector of PNGs
     PNG base;
