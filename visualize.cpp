@@ -60,7 +60,7 @@ PNG Visualize::visualize(std::vector<std::string> input) {
     std::unordered_map<std::string, Vector2> airportLocations;
     // airportLocations[''] = Coordinate(30, 10); template for the map
     // airportLocations['']
-    std::ifstream fin("airport.csv");
+    std::ifstream fin("Data/airport.csv");
     int count = 0;
   
     std::vector<std::string> row;

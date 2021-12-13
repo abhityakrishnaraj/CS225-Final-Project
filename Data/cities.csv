@@ -1,40 +1,40 @@
 Tokyo,Japan,Asia,NRT,35.7647,140.386
 Delhi,India,Asia,DEL,28.5845,77.2058
 Shanghai,China,Asia,PVG,31.1434,121.805
-Sao Paulo,Brazil,SA,GRU,-23.43556,-46.47306
-Mexico City,Mexico,NA,MEX,19.4363,-99.0721
+SaoPaulo,Brazil,SA,GRU,-23.43556,-46.47306
+MexicoCity,Mexico,NA,MEX,19.4363,-99.0721
 Cairo,Egypt,Africa,CAI,30.1219,31.4056
 Bombay,India,Asia,BOM,19.0887,72.8679
 Beijing,China,Asia,PEK,40.0801,116.585
 Dhaka,Bangladesh,Asia,DAC,23.84335,90.39778
 Osaka,Japan,Asia,KIX,34.4273,135.244
-New York City,United States of America,NA,JFK,40.6398,-73.7789
+NewYorkCity,UnitedStatesofAmerica,NA,JFK,40.6398,-73.7789
 Karachi,Pakistan,Asia,KHI,24.9065,67.1608
 Chongping,China,Asia,CKG,29.7192,106.642
 Istanbul,Turkey,Europe,IST,41.27528,28.75194
-Buenos Aires,Argentina,SA,EZE,-34.8222,-58.5358
+BuenosAires,Argentina,SA,EZE,-34.8222,-58.5358
 Kolkata,India,Asia,CCU,22.6547,88.4467
 Lagos,Nigeria,Africa,LOS,6.57737,3.32116
-Dubai,United Arab Emirates,Asia,DXB,25.2528,55.3644
+Dubai,UnitedArabEmirates,Asia,DXB,25.2528,55.3644
 Manila,Phillipines,Asia,MNL,14.5086,121.02
 Tianjin,China,Asia,TSN,39.1244,117.346
 Paris,France,Europe,CDG,49.0128,2.55
 Rome,Italy,Europe,FCO,41.80028,12.23889
-Lima,Peru,South America,LIM,-12.0219,-77.11431
+Lima,Peru,SouthAmerica,LIM,-12.0219,-77.11431
 Athens,Greece,Europe,ATH,37.9364,23.9445
-Phnom Penh,Cambodia,Asia,PNH,11.5466,104.844
-Toronto,Canada,North America,YYZ,43.6772,-79.6306
-London,United Kingdom,Europe,LHR,51.4706,-0.46194
+PhnomPenh,Cambodia,Asia,PNH,11.5466,104.844
+Toronto,Canada,NorthAmerica,YYZ,43.6772,-79.6306
+London,UnitedKingdom,Europe,LHR,51.4706,-0.46194
 Jakarta,Indonesia,Asia,CGK,-6.12557,106.656
 Sydney,Australia,Oceania,SYD,-33.9461,151.177
-Prague,Czech Republic,Europe,PRG,50.1008,14.26
-Atlanta,United States of America,NA,ATL,33.6367,-84.4281
-Los Angeles,United States of America,NA,LAX,33.9425,-118.408
-Chicago,United States of America,NA,ORD,41.9786,-87.9048
-Hong Kong,China,Asia,HKG,22.3089,113.915
+Prague,CzechRepublic,Europe,PRG,50.1008,14.26
+Atlanta,UnitedStatesofAmerica,NA,ATL,33.6367,-84.4281
+LosAngeles,UnitedStatesofAmerica,NA,LAX,33.9425,-118.408
+Chicago,UnitedStatesofAmerica,NA,ORD,41.9786,-87.9048
+HongKong,China,Asia,HKG,22.3089,113.915
 Amsterdam,Netherlands,Europe,AMS,52.3086,4.76389
 Gaungzhou,China,Asia,CAN,23.3924,113.299
 Frankfurt,Germany,Europe,FRA,50.03333,8.57056
 Singapore,Singapore,Asia,SIN,1.35019,103.994
-Seoul,South Korea,Asia,ICN,37.4691,126.451
-Denver,United States of America,NA,DEN,39.8617,-104.673
+Seoul,SouthKorea,Asia,ICN,37.4691,126.451
+Denver,UnitedStatesofAmerica,NA,DEN,39.8617,-104.673
