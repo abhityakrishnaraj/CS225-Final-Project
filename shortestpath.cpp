@@ -2,8 +2,8 @@
 #include <sstream>
 #include <cstdio>
 #include <climits>
-#include "stack"
-#include "iostream"
+#include <stack>
+#include <iostream>
 #include "cs225/PNG.h"
 #include "gifFunction.hpp"
 #include "visualize.h"
