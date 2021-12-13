@@ -2,7 +2,7 @@
 #include "stdio.h"
 #include "limits.h"
 
-#define V 40
+#define V 5
 
 using namespace std;
 
@@ -56,7 +56,11 @@ vector<int> djikstra(int graph[V][V], int start, int goal){
 int main(){
     int start;
     int goal;
-    int graph[V][V];
+    int graph[V][V] = {{0, 0, 1, 0, 2},
+                       {0, 0, 0, 3, 4}, 
+                       {2, 0, 0, 5, 2},
+                       {1, 4, 4, 0, 2}, 
+                       {3, 3, 3, 3, 0}};
     vector<int> path = djikstra(graph, start, goal);
     return 0;
 }
