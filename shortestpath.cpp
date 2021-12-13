@@ -103,6 +103,36 @@ void dfs(int row, int col, int grid[V][V], bool vis[][V]) {
      }
 }
 
+bool BFS(vector<int> adj[V], int start, int goal, int parent[], int dist[]){
+    queue<int> q;
+    bool visit[V];
+    for(int i = 0; i < V; i++){
+        visit[i] = false;
+        dist[i] = INT_MAX;
+        parent[i] = -1;
+    }
+    
+    visit[start] = true;
+    dist[start] = 0;
+    q.push(start);
+    
+    while(!q.empty()){
+        int f = q.front();
+        q.pop();
+        for(int i = 0; i < adj[f].size(); i++){
+            if(visit[adj[f][i]] == false){
+                visit[adj[f][i]] = true;
+                dist[adj[f][i]] = dist[f] + 1;
+                parent[adj[f][i]] = f;
+                q.push(adj[f][i]);
+                if(adj[f][i] == goal)
+                    return true;
+            }
+        }
+    }
+    return false;
+}
+
 int getCity(string input, string cities[V]) {
     /*string cities[40] = {"Tokyo", "Delhi", "Shanghai", "Sao Paulo", "Mexico City", "Cairo", "Mumbai", "Beijing", 
                          "Dhaka", "Osaka", "New York City", "Karachi", "Chongqing", "Istanbul", "Buenos Aires", 
