@@ -17,19 +17,19 @@ int minDist(int dist[], bool visit[]){
     return idx;
 }
 
-vector<int> getPath(int parent[], int goal){
-    vector<int> path;
+void getPath(int parent[], int goal, vector<int>* path){
     if(parent[goal] == -1)
         return NULL;
-    getPath(parent, parent[goal]);
+    getPath(parent, parent[goal], path);
     path.push_back(goal);
     printf("%d", goal);
 }
 
-void djikstra(int graph[V][V], int start, int goal){
+vector<int> djikstra(int graph[V][V], int start, int goal){
     int dist[V];
     int parent[V];
     bool visit[V];
+    vector<int> path;
 
     for(int i = 0; i < V; i++){
         dist[i] = INT_MAX;
@@ -48,7 +48,9 @@ void djikstra(int graph[V][V], int start, int goal){
             }
         }
     }
-    getPath(parent, goal);
+    
+    getPath(parent, goal, path);
+    return path;
 }
 
 int main(){
