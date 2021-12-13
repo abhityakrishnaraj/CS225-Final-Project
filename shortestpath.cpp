@@ -2,7 +2,7 @@
 #include "stdio.h"
 #include "limits.h"
 
-#define V 5
+#define V 40
 
 using namespace std;
 
