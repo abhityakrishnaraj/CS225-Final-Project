@@ -54,8 +54,8 @@ vector<int> djikstra(int graph[V][V], int start, int goal){
 }
 
 int main(){
-    int start;
-    int goal;
+    int start = 0;
+    int goal = 4;
     int graph[V][V] = {{0, 0, 1, 0, 2},
                        {0, 0, 0, 3, 4}, 
                        {2, 0, 0, 5, 2},
