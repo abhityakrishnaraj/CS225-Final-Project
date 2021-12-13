@@ -61,8 +61,9 @@ vector<int> djikstra(int graph[V][V], int start, int goal){
     return path;
 }
 
-bool BFS(vector<int> adj[V], int start, int goal, int parent[], int dist[]){
+vector<int> BFS(vector<int> adj[V], int start, int goal, int parent[], int dist[]){
     queue<int> q;
+    vector<int> path;
     bool visit[V];
     for(int i = 0; i < V; i++){
         visit[i] = false;
@@ -83,12 +84,15 @@ bool BFS(vector<int> adj[V], int start, int goal, int parent[], int dist[]){
                 dist[adj[f][i]] = dist[f] + 1;
                 parent[adj[f][i]] = f;
                 q.push(adj[f][i]);
-                if(adj[f][i] == goal)
-                    return true;
+                if(adj[f][i] == goal){
+                    getPath(parent, goal, path);
+                    return path;
+                }
             }
         }
     }
-    return false;
+    printf("No possible routes between %s and %s", start, goal);
+    return NULL;
 }
 
 int getCity(string input, string cities[V]) {
