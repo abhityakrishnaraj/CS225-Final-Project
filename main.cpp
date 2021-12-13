@@ -6,37 +6,7 @@
 
 using namespace cs225;
 int main(){
-    /*
-    std::vector<std::string> temp;
-    std::vector<PNG> vec;
-    std::vector<std::string> input = {"NRT", "DEL", "LAX", "JFK", "PEK"};
-    Visualize v;
-    v.visualize(input).writeToFile("Final Route.png");
-    //do vector of PNGs
-    PNG base;
-    base.readFromFile("map.png");
-    vec.push_back(base);
-    for (unsigned i = 1; i < input.size(); i++) {
-        for (unsigned j = 0; j <= i; j++) {
-            temp.push_back(input[j]);
-        }
-
-        vec.push_back(v.visualize(temp));
-        temp.clear();
-    }
-
-    gifFunction x;
-    x.makeGif(vec);
-    */
-    
     int graph[V][V];
-    /*
-    string cities[40] = {"Tokyo", "Delhi", "Shanghai", "Sao Paulo", "Mexico City", "Cairo", "Mumbai", "Beijing",
-                         "Dhaka", "Osaka", "New York City", "Karachi", "Chongqing", "Istanbul", "Buenos Aires",
-                         "Kolkata", "Lagos", "Dubai", "Manila", "Tianjin", "Paris", "Rome", "Lima", "Athens",
-                         "Phnom Penh", "Toronto", "London", "Jakarta", "Sydney", "Prague", "Atlanta", "Los Angeles",
-                         "Chicago", "Hong Kong", "Amsterdam", "Guangzhou", "Frankfurt", "Singapore", "Seoul", "Denver"};
-    */
     ifstream rout("Data/routes.csv");
     vector<int> row;
     string line, word;
@@ -56,15 +26,20 @@ int main(){
         copy(row.begin(), row.end(), graph[count]);
         count++;
     }
-
-    // for(int i = 0; i < V; i++)
-    // {
-    //     for(int j = 0; j <V; j++)
-    //     {
-    //         std::cout<<graph[i][j]<<" ";
-    //     }
-    //     std::cout<<'\n';
-    // }
+    
+    vector<int> adj[V];
+    int lmtgraph[V][V];
+    for (int i = 0; i < V; i++) {
+        for (int j = 0; j < V; j++) {
+            if (graph[i][j] < 600 && graph[i][j] > 0) {
+                lmtgraph[i][j] = graph[i][j];
+                adj[i].push_back(i);
+                adj[j].push_back(j);
+            } else {
+                lmtgraph[i][j] = 0; 
+            }
+        }
+    }
     
     string cities[V];
     string countries[V];
@@ -75,11 +50,13 @@ int main(){
     ifstream air("Data/cities.csv");
     count = 0;
     while(air >> line){
-        stringstream s(line);
+        istringstream s;
+        s.str(line);
         for(int i = 0; i < 4; i++){
             getline(s, word, ',');
-            if(i == 0)
+            if(i == 0) {
                 cities[count] = word;
+            }
             else if(i == 1)
                 countries[count] = word;
             else if(i == 2)
@@ -88,7 +65,6 @@ int main(){
                 codes[count] = word;
         }
         count ++;
-        
     }
     
     int start = -1;
@@ -106,10 +82,11 @@ int main(){
         cin >> in2;
         end = getCity(in2, cities);
     }
-    vector<int> path = djikstra(graph, start, end);
+    vector<int> path = djikstra(lmtgraph, start, end);
     
     vector<string> codepath;
-    for(int i = 0; i < (int)path.size(); i++){
+    for(unsigned i = 0; i < path.size(); i++) {
+        cout << cities[path.at(i)] + " ";
         codepath.push_back(codes[path.at(i)]);
     }
     vector<string> & input = codepath;
@@ -134,25 +111,3 @@ int main(){
     x.makeGif(vec);
 
 }
-// int main(){
-//     std::vector<std::string> temp;
-//     std::vector<PNG> vec;
-//     std::vector<std::string> input = {"NRT", "DEL", "LAX", "JFK", "PEK"};
-//     Visualize v;
-//     v.visualize(input).writeToFile("Final Route.png");
-//     //do vector of PNGs
-//     PNG base;
-//     base.readFromFile("map.png");
-//     vec.push_back(base);
-//     for (unsigned i = 1; i < input.size(); i++) {
-//         for (unsigned j = 0; j <= i; j++) {
-//             temp.push_back(input[j]);
-//         }
-
-//         vec.push_back(v.visualize(temp));
-//         temp.clear();
-//     }
-
-//     gifFunction x;
-//     x.makeGif(vec);
-// }
