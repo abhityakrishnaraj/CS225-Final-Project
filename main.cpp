@@ -36,8 +36,7 @@ int main(){
         for (int j = 0; j < V; j++) {
             if (graph[i][j] < 600 && graph[i][j] > 0) {
                 lmtgraph[i][j] = graph[i][j];
-                adj[i].push_back(i);
-                adj[j].push_back(j);
+                adj[i].push_back(j);
             } else {
                 lmtgraph[i][j] = 0; 
             }
