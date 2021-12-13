@@ -43,8 +43,7 @@ void Visualize::drawPixel(int x, int y, PNG & png){
     Circle circle(Vector2(x, y), color::BLUE, 2);
     circle.draw(&png);
 }    
-
-     
+ 
 
 void Visualize::drawLine(int x1, int y1, int x2, int y2, PNG & png){
     Line line(Vector2(x1, y1), Vector2(x2, y2), color::DARKGRAY);

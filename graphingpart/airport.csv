@@ -2,40 +2,40 @@ City,Country,Continent,AirportCode,latitude,longitude
 Tokyo,Japan,Asia,NRT,35.76470,140.38600
 Delhi,India,Asia,DEL,28.58450,77.20580
 Shanghai,China,Asia,PVG,31.14340,121.80500
-Sao_Paulo,Brazil,SA,GRU,-23.43556,-46.47306
-Mexico_City,Mexico,NA,MEX,19.43630,-99.07210
+Sao Paulo,Brazil,SA,GRU,-23.43556,-46.47306
+Mexico City,Mexico,NA,MEX,19.43630,-99.07210
 Cairo,Egypt,Africa,CAI,30.12190,31.40560
 Bombay,India,Asia,BOM,19.08870,72.86790
 Beijing,China,Asia,PEK,40.08010,116.58500
 Dhaka,Bangladesh,Asia,DAC,23.84335,90.39778
 Osaka,Japan,Asia,KIX,34.42730,135.24400
-New_York_City,United_States_of_America,NA,JFK,40.63980,-73.77890
+New York City,United States of America,NA,JFK,40.63980,-73.77890
 Karachi,Pakistan,Asia,KHI,24.90650,67.16080
 Chongping,China,Asia,CKG,29.71920,106.64200
 Istanbul,Turkey,Europe,IST,41.27528,28.75194
-Buenos_Aires,Argentina,SA,EZE,-34.82220,-58.53580
+Buenos Aires,Argentina,SA,EZE,-34.82220,-58.53580
 Kolkata,India,Asia,CCU,22.65470,88.44670
 Lagos,Nigeria,Africa,LOS,6.57737,3.32116
-Dubai,United_Arab_Emirates,Asia,DXB,25.25280,55.36440
+Dubai,United Arab Emirates,Asia,DXB,25.25280,55.36440
 Manila,Phillipines,Asia,MNL,14.50860,121.02000
 Tianjin,China,Asia,TSN,39.12440,117.34600
 Paris,France,Europe,CDG,49.01280,2.55000
 Rome,Italy,Europe,FCO,41.80028,12.23889
-Lima,Peru,South_America,LIM,-12.02190,-77.11431
+Lima,Peru,South America,LIM,-12.02190,-77.11431
 Athens,Greece,Europe,ATH,37.93640,23.94450
-Phnom_Penh,Cambodia,Asia,PNH,11.54660,104.84400
-Toronto,Canada,North_America,YYZ,43.67720,-79.63060
-London,United_Kingdom,Europe,LHR,51.47060,-0.46194
+Phnom Penh,Cambodia,Asia,PNH,11.54660,104.84400
+Toronto,Canada,North America,YYZ,43.67720,-79.63060
+London,United Kingdom,Europe,LHR,51.47060,-0.46194
 Jakarta,Indonesia,Asia,CGK,-6.12557,106.65600
 Sydney,Australia,Oceania,SYD,-33.94610,151.17700
-Prague,Czech_Republic,Europe,PRG,50.10080,14.26000
-Atlanta,United_States_of_America,NA,ATL,33.63670,-84.42810
-Los_Angeles,United_States_of_America,NA,LAX,33.94250,-118.40800
-Chicago,United_States_of_America,NA,ORD,41.97860,-87.90480
-Hong_Kong,China,Asia,HKG,22.30890,113.91500
+Prague,Czech Republic,Europe,PRG,50.10080,14.26000
+Atlanta,United States of America,NA,ATL,33.63670,-84.42810
+Los Angeles,United States of America,NA,LAX,33.94250,-118.40800
+Chicago,United States of America,NA,ORD,41.97860,-87.90480
+Hong Kong,China,Asia,HKG,22.30890,113.91500
 Amsterdam,Netherlands,Europe,AMS,52.30860,4.76389
 Gaungzhou,China,Asia,CAN,23.39240,113.29900
 Frankfurt,Germany,Europe,FRA,50.03333,8.57056
 Singapore,Singapore,Asia,SIN,1.35019,103.99400
-Seoul,South_Korea,Asia,ICN,37.46910,126.45100
-Denver,United_States_of_America,NA,DEN,39.86170,-104.67300
+Seoul,South Korea,Asia,ICN,37.46910,126.45100
+Denver,United States of America,NA,DEN,39.86170,-104.67300

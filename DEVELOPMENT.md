@@ -47,3 +47,13 @@ improvements for users inputting cities into the code. Some problems did rise up
 creation of the algorithm and the importation of data but they were resolved in the group
 
 meeting. Also had the mid- point presentation this week that went ok.
+
+Week of December 6
+
+● The group was separated into two teams to work on the Algorithm part and Graphing part of the code.
+Algorithm part takes in user input and generates a shortest path consisting of a list of city names. Graphing part takes in the list of cities and generates 1. A png file for final minimum 2. A gif indicating how the path develops. 
+
+● Combine code from two parts explained above
+
+● Make presentation
+
