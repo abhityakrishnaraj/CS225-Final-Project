@@ -109,6 +109,7 @@ int main(){
     std::ifstream fin("routes.csv");
 
     int graph[V][V];
+    string cities[40] = {Tokyo, Delhi, Shanghai, Sao Paulo, Mexico City, Cairo, Mumbai, Beijing, Dhaka, Osaka, New York City, Karachi, Chongqing, Istanbul, Buenos Aires, Kolkata, Lagos, Dubai, Manila, Tianjin, Paris, Rome, Lima, Athens, Phnom Penh, Toronto, London, Jakarta, Sydney, Prague, Atlanta, Los Angeles, Chicago, Hong Kong, Amsterdam, Guangzhou, Frankfurt, Singapore, Seoul, Denver};
     
     std::vector<int> row;
     std::string line, word;
