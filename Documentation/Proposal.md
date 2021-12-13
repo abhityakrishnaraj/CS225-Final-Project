@@ -1,5 +1,3 @@
-﻿
-
 **Final Project Proposal**
 
 Question
@@ -18,7 +16,7 @@ We set up a graph where each node represents the selected cities and each
 
 edge represents the flight time between two cities. We are creating a scenario where
 
-the passenger at hand does not want to spend more than 12 hours (720 minutes) on a
+the passenger at hand does not want to spend more than 10 hours (600 minutes) on a
 
 flight (essentially no overnight flights). The passenger inputs their desired starting city
 
@@ -36,23 +34,25 @@ relevant information about the airports in the 40 cities, such as airport, city,
 
 continent, IATA code, latitude, and longitude. We will be filtering out the necessary
 
-airports from the list of thousands of airports found on the open flights database. To find
-
-data on flight times and routes between cities we will be manually inputting data from
-
-<https://www.flightsfrom.com/>[ ](https://www.flightsfrom.com/)into a separate database, adding information about the
-
-route between two cities simply including: departure city, flight time in minutes, and
-
-destination city.
+airports from the list of thousands of airports found on the open flights database. 
 
 **Sample airport data:** "London Heathrow Airport", "London", "United Kingdom",
 
 “Europe”, "LHR", 51.4706, -0.461941
 
-**Sample Route Data for shortest path:** “London”, 75, “Paris” / “Paris”, 65, “London”
+To find data on flight times and routes between cities we will be manually inputting data from
 
-(directed paths between cities)
+<https://www.flightsfrom.com/>[ ](https://www.flightsfrom.com/)into a separate database, adding information about the
+
+routes between two cities simply including: departure city, flight time in minutes, and
+
+destination city.
+
+We will be importing the route data in a matrix format with the row and column indicies matching 
+
+up with the corresponding city index from the airport data. The rows indexes in the matrix are the
+
+starting points and the column indexes are destinations. Every route that doesn't exists will be marked with a 0.
 
 Our graph will be created by each airport representing a node/vertex and each
 
@@ -73,10 +73,6 @@ point to any of the other 40 cities. From the starting city, each neighbor has a
 distance from it’s previous visited site. When a shorter value presents, the current
 
 distance is updated. It has a time complexity of O(V^2), V representing vertices. In this
-
-
-
-
 
 scenario, (40 cities) vertices and (Duration of a flight between those cities) edges.
 
@@ -135,4 +131,3 @@ airports
 ● Finalize all presentation materials, report, final video, and presentation, conduct
 
 extreme last minute testing to make sure the code works as expected
-
