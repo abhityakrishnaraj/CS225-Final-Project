@@ -113,7 +113,7 @@ int main(){
         std::cout<<"No possible routes between" <<cities[start]<<"and"<<cities[end];
     
     vector<string> strpath;
-    cout << "BFS (Least Number of Flights): "
+    cout << "BFS (Least Number of Flights): ";
     for(unsigned i = 0; i < path.size(); i++){
         cout << cities[path.at(i)] + " ";
         strpath.push_back(codes[path.at(i)]);
