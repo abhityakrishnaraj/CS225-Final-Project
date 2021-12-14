@@ -1,8 +1,8 @@
-CS225 Fall 2021 Final Project
+# CS225 Fall 2021 Final Project
 
 Abhitya Krishnaraj, Tony Wei, Vivian Choi, Yusong Wang
 
-Overview
+## Overview
 
 Our project looks at the data obtained from flightsfrom.com that details the length of flight routes 
 
@@ -23,14 +23,50 @@ The program will output two ordered list of cities, one for the BFS algorithm an
 algorithm, create two PNGs that displays the lists given by the two algorithms, and display a GIF that
 
 marks out the exact route to take as dictated by the Djikstra algorithm.
+ 
+***
+
+## Location of Code
 
 All the major code is located within the main folder.
 
-Main.cpp contains the main function that is run.
+Main.cpp contains the main function that is run. It takes care of reading data in from the csv files, 
+
+formatting that data, and calling the functions that are declared in the other .cpp files.
 
 The documentation folder contains any text files like the DEVELOPMENT, GOALS, and Team Contract.
 
-The data folder contains most of the csv files that were used in the project, the only csv file that is outside of the folder is the allroutes.csv file.
+The data folder contains most of the csv files that were used in the project, allroutes.csv and 
 
-The frames folder contains the PNG's that make up the outputted GIF file.
+map.png are the two sources of data that are outside of the folder.
 
+The video presentation is the mp4 file in the main folder called "Final Video.mp4".
+
+***
+
+### Testing, Inputs, and Outputs
+
+The code can be compiled in terminal when within the main folder like this: 
+
+```
+$ make
+$ ./visualize
+```
+
+This will prompt the user to first enter the name of a start city and then the destination. The inputs
+
+are only recognized if they are in the same format as expected, with the city's name being in proper
+
+case format ex: New York City.
+
+The output seen in the terminal consists of two written shortest path lists of cities Ex: New York
+
+City Paris Cairo, for the BFS output and the Djikstra's output. The other output of the code is seen in 
+
+PNG and GIF format. The BFS route is seen in "BFS Route.png" and the Djikstra's route is in "NonanimatedSolution.png".
+
+The GIF file can be seen on GitHub at "AnimatedSolution.gif". Unfortunately the gif doesn't always work as
+
+intended while looking at it through EWS within the cloned folder but works fine for every new input
+
+once it is pushed to GitHub. The PNG files that make up the GIF file are found within the frames folder.
