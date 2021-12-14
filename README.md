@@ -65,8 +65,8 @@ City Paris Cairo, for the BFS output and the Djikstra's output. The other output
 
 PNG and GIF format. The BFS route is seen in "BFS Route.png" and the Djikstra's route is in "NonanimatedSolution.png".
 
-The GIF file can be seen on GitHub at "AnimatedSolution.gif". Unfortunately the gif doesn't always work as
+The GIF file can be seen on GitHub at "AnimatedSolution.gif". Unfortunately the gif sometimes doesn't work
 
-intended while looking at it through EWS within the cloned folder but works fine for every new input
+as intended while looking at it withing the cloned folder in EWS, however; it works normally fine once it is 
 
-once it is pushed to GitHub. The PNG files that make up the GIF file are found within the frames folder.
+pushed to GitHub. The PNG files that make up the GIF file are found within the frames folder.
