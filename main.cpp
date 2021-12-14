@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
     int graph[V][V];
-    ifstream rout("Data/routes.csv");
+    ifstream rout("allroutes.csv");
     vector<int> row;
     string line, word;
     int count = 0;
@@ -34,8 +34,10 @@ int main(){
     int lmtgraph[V][V];
     for (int i = 0; i < V; i++) {
         for (int j = 0; j < V; j++) {
-            if (graph[i][j] < 600 && graph[i][j] > 0) {
-                lmtgraph[i][j] = graph[i][j];
+            if (graph[i][j] > 0) {
+                if (graph[i][j] < 600) {
+                    lmtgraph[i][j] = graph[i][j];
+                }
                 adj[i].push_back(j);
             } else {
                 lmtgraph[i][j] = 0; 
@@ -109,8 +111,12 @@ int main(){
     }
     vector<int> path = BFS(adj, start, end);
     
+    for (unsigned i = 0; i < adj[30].size(); i++) {
+        cout << adj[30].at(i) <<  " ";
+    }
+    
     if(path.empty())
-        std::cout<<"No possible routes between" <<cities[start]<<"and"<<cities[end];
+        std::cout<<"No possible routes between" << cities[start]<<"and"<<cities[end];
     
     vector<string> strpath;
     cout << "BFS (Least Number of Flights): ";

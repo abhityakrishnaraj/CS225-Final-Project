@@ -51,10 +51,13 @@ vector<int> djikstra(int graph[V][V], int start, int goal){
         int m = minDist(dist, visit);
         visit[m] = true;
         for(int k = 0; k < V; k++){
-            if(!visit[k] && graph[m][k] && (dist[m] + graph[m][k]) < dist[k]){
-                parent[k] = m;
-                dist[k] = dist[m] + graph[m][k];
+            if (graph[m][k] < 600) {
+                if(!visit[k] && graph[m][k] && (dist[m] + graph[m][k]) < dist[k]){
+                    parent[k] = m;
+                    dist[k] = dist[m] + graph[m][k];
+                }
             }
+            
         }
     }
     getPath(parent, goal, path);
