@@ -57,10 +57,31 @@ int main(){
         for(int i = 0; i < 4; i++){
             getline(s, word, ',');
             if(i == 0) {
+                string temp;
+                string temp2;
+                int lastCap = 0;
+                for(unsigned i = 0; i < word.size(); i++){
+                    if(isupper(word.at(i)) && a.at(i-1) != ' '){
+                        temp = word.substr(i);
+                        temp2 = word.substr(lastCap, i-lastCap);
+                        a = temp2 + " " + temp;
+                    }
+                }
                 cities[count] = word;
             }
-            else if(i == 1)
+            else if(i == 1){
+                string temp;
+                string temp2;
+                int lastCap = 0;
+                for(unsigned i = 0; i < word.size(); i++){
+                    if(isupper(word.at(i)) && a.at(i-1) != ' '){
+                        temp = word.substr(i);
+                        temp2 = word.substr(lastCap, i-lastCap);
+                        a = temp2 + " " + temp;
+                    }
+                }
                 countries[count] = word;
+            }
             else if(i == 2)
                 continents[count] = word;
             else
@@ -87,7 +108,7 @@ int main(){
     vector<int> path = BFS(adj, start, end);
     
     if(path.empty())
-        printf("No possible routes between %s and %s", cities[start], cities[end]);
+        cout<<"No possible routes between"<<cities[start]<< "and "<<cities[end]);
     
     vector<int> strpath;
     for(unsigned i = 0; i < path.size(); i++){
