@@ -2,6 +2,8 @@
 
 **RESULTS**
 
+The PDF with the PNG's visible are uploaded in the same folder.
+
 For our project, we set out to make a program that can find the shortest path between
 
 any two destinations and their corresponding flights, as well as find a way to visit the top 40
