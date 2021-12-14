@@ -87,12 +87,13 @@ int main(){
     vector<int> path = BFS(adj, start, end);
     
     if(path.empty())
-        printf("No possible routes between %s and %s", cities[start], cities[end]);
+        std::cout<<"No possible routes between" <<cities[start]<<"and"<<cities[end];
+        // printf("No possible routes between %s and %s", cities[start], cities[end]);
     
-    vector<int> strpath;
+    vector<string> strpath;
     for(unsigned i = 0; i < path.size(); i++){
         cout << cities[path.at(i)] + " ";
-        strpath.push_back(codes[path.at(i)];
+        strpath.push_back(codes[path.at(i)]);
     }
     
     vector<string> & input2 = strpath;
@@ -111,7 +112,7 @@ int main(){
     vector<string> & input = codepath;
     vector<string> temp;
     vector<PNG> vec;
-    v.visualize(input).writeToFile("Final Route.png");
+    // v.visualize(input).writeToFile("Final Route.png");
     //do vector of PNGs
     PNG base;
     base.readFromFile("map.png");

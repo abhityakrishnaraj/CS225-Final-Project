@@ -63,7 +63,7 @@ vector<int> djikstra(int graph[V][V], int start, int goal){
 
 vector<int> BFS(vector<int> adj[V], int start, int goal){
     int parent[V];
-    int dist[V]
+    int dist[V];
     queue<int> q;
     vector<int> path;
     bool visit[V];

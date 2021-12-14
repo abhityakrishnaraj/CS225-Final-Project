@@ -30,7 +30,7 @@ class gifFunction {
         //   PNG Frame4;
         //   Frame4.readFromFile("worldMap[2150].png");
         //   animation.addFrame(Frame4);
-        animation.write("GifRoute.gif");
+        animation.write("AnimatedSolution.gif");
         
         PNG lastFrame = animation.getFrame( animation.frameCount() - 1 );
         lastFrame.writeToFile("NonanimatedSolution.png");
