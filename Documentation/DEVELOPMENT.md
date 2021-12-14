@@ -113,3 +113,18 @@ integrate together the two parts to produce the final PNG/GIF output from an inp
 a start point and end point. We also all worked together to start working on the final powerpoint
 
 presentation.
+
+Week of December 13
+
+● We finalized our code while fixing some bug issues related to edge cases and certain user inputs. 
+
+For example, fixing issues regarding entering cities that are more than 1 word long and fixing BFS 
+
+traversal issues where it would not go to the correct destination because we read in the data as one 
+
+line too short causing random generation to be put in place instead of actual data points. In addition, 
+
+we worked on the presentation for the project and its supporint documentation such as the ReadMe and the 
+
+Results page. 
+
