@@ -14,11 +14,9 @@ int main(){
     vector<int> row;
     string line, word;
     int count = 0;
-    rout>>line;
     while (rout >> line) {
         row.resize(0);
         stringstream s(line);
-        getline(s, word, ',');      
         for (int i = 0; i < V; i++) {
             getline(s, word, ',');
             stringstream w(word);
@@ -31,7 +29,7 @@ int main(){
     }
     
     vector<int> adj[V];
-    int lmtgraph[V][V];
+    int lmtgraph[V][V] = {};
     for (int i = 0; i < V; i++) {
         for (int j = 0; j < V; j++) {
             if (graph[i][j] > 0) {
@@ -57,39 +55,39 @@ int main(){
         istringstream s;
         s.str(line);
         for(int i = 0; i < 4; i++){
-            getline(s, word, ',');
+            string word2;
+            getline(s, word2, ',');
             if(i == 0) {
                 string temp;
                 string temp2;
                 int lastCap = 0;
-                for(unsigned i = 1; i < word.size(); i++){
-                    if(isupper(word.at(i)) && word.at(i-1) != ' '){
-                        temp = word.substr(i);
-                        temp2 = word.substr(lastCap, i-lastCap);
-                        word = temp2 + " " + temp;
-                        // cout<<word;
+                for(unsigned i = 1; i < word2.size(); i++){
+                    if(isupper(word2.at(i)) && word2.at(i-1) != ' '){
+                        temp = word2.substr(i);
+                        temp2 = word2.substr(lastCap, i-lastCap);
+                        word2 = temp2 + " " + temp;
                     }
                 }
-                cities[count] = word;
+                cities[count] = word2;
             }
             else if(i == 1){
                 string temp;
                 string temp2;
                 int lastCap = 0;
-                for(unsigned i = 1; i < word.size(); i++){
-                    if(isupper(word.at(i)) && word.at(i-1) != ' '){
-                        temp = word.substr(i);
-                        temp2 = word.substr(lastCap, i-lastCap);
-                        word = temp2 + " " + temp;
-                        // cout<<word;
+                for(unsigned i = 1; i < word2.size(); i++){
+                    if(isupper(word2.at(i)) && word2.at(i-1) != ' '){
+                        temp = word2.substr(i);
+                        temp2 = word2.substr(lastCap, i-lastCap);
+                        word2 = temp2 + " " + temp;
+                        //cout<<word;
                     }
                 }
-                countries[count] = word;
+                countries[count] = word2;
             }
             else if(i == 2)
-                continents[count] = word;
+                continents[count] = word2;
             else
-                codes[count] = word;
+                codes[count] = word2;
         }
         count ++;
     }
@@ -99,21 +97,17 @@ int main(){
     while (start < 0) {
         string in1;
         cout << "Starting: ";
-        cin >> in1;
+        getline(cin, in1);
         start = getCity(in1, cities);
     }
     
     while (end < 0) {
         string in2;
         cout << "Destination: ";
-        cin >> in2;
+        getline(cin, in2);
         end = getCity(in2, cities);
     }
     vector<int> path = BFS(adj, start, end);
-    
-    for (unsigned i = 0; i < adj[30].size(); i++) {
-        cout << adj[30].at(i) <<  " ";
-    }
     
     if(path.empty())
         std::cout<<"No possible routes between" << cities[start]<<"and"<<cities[end];
