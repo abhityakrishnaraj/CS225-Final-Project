@@ -113,10 +113,12 @@ int main(){
         std::cout<<"No possible routes between" <<cities[start]<<"and"<<cities[end];
     
     vector<string> strpath;
+    cout << "BFS (Least Number of Flights): "
     for(unsigned i = 0; i < path.size(); i++){
         cout << cities[path.at(i)] + " ";
         strpath.push_back(codes[path.at(i)]);
     }
+    cout << "\n";
     
     vector<string> & input2 = strpath;
                           
@@ -127,10 +129,12 @@ int main(){
     path = djikstra(lmtgraph, start, end);
                           
     vector<string> codepath;
+    cout << "Djikstra's (Shortest Time on Flights): ";
     for(unsigned i = 0; i < path.size(); i++) {
         cout << cities[path.at(i)] + " ";
         codepath.push_back(codes[path.at(i)]);
     }
+    cout << "\n";
     vector<string> & input = codepath;
     vector<string> temp;
     vector<PNG> vec;
