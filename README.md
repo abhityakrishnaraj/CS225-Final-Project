@@ -44,7 +44,15 @@ The video presentation is the mp4 file in the main folder called "Final Video.mp
 
 ***
 ### Use of CSV
-The csv files we use in this project is all written on the main function. The file allroutes.csv in root folder is used to create adjacency list of cities and file cities.csv, which is in the Data folder, is used to store the information(city name, airport code, continent, etc.) in the order of cities in the adjacency list(0, 39).  airport.csv file in the Data folder is used to get the longitude and latitude information of each city airports as an input for the maptocoord function. 
+The csv files we use in this project is all written on the main function. The file allroutes.csv in
+
+root folder is used to create adjacency list of cities and file cities.csv, which is in the Data folder,
+
+is used to store the information(city name, airport code, continent, etc.) in the order of cities in the
+
+adjacency list(0, 39).  airport.csv file in the Data folder is used to get the longitude and latitude
+
+information of each city airports as an input for the maptocoord function. 
 
 ### Testing, Inputs, and Outputs
 
